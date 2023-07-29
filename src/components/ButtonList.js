@@ -22,10 +22,13 @@ const list = [
 
 const ButtonList = () => {
   return (
-    <div className="flex overflow-hidden">
+    <div className="flex flex-nowrap overflow-x-scroll">
+     
       {list.map((item, index) => {
         return <Button name={item} key={index}></Button>;
       })}
+    
+     
     </div>
   );
 };

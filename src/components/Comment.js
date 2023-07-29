@@ -6,7 +6,7 @@ const Comment = ({data}) => {
     const {name,text} = data;
 
     return(
-        <div className="p-2 m-2 flex rounded bg-gray-100">
+        <div className="p-2 ml-2 my-2 flex rounded bg-gray-100">
            <img
           className="h-8"
           alt="user"

@@ -10,22 +10,32 @@ const Sidebar = () => {
   if(!isMenuOpen) return null
 
   return (
-    <div className="w-48 p-3 m-3 shadow-md">
-        <h1 className=" font-bold py-2">Subscription</h1>
+    <div className="my-2 px-4 w-48 shadow-md">
+      <h1 className=" font-bold py-2">Subscription</h1>
 
-      <ul >
-        <li> <Link to="/">Home</Link> </li>
-        <li>Shorts</li>
-        <li>Subscription</li>
+      <ul className="flex flex-col">
+        <Link to="/">
+          <li className="">
+            <span className="material-symbols-outlined">Home</span>
+            <span>Home</span>
+          </li>
+        </Link>
+        <li>
+          <span class="material-symbols-outlined">slideshow</span>Shorts
+        </li>
+        <li>
+          <span class="material-symbols-outlined">subscriptions</span>
+          Subscriptions
+        </li>
       </ul>
       <h1 className="font-bold py-2"> Library</h1>
-      <ul >
+      <ul>
         <li>Library</li>
         <li>History</li>
         <li>Watch Later</li>
       </ul>
       <h1 className="font-bold py-2">Explore</h1>
-      <ul >
+      <ul>
         <li>Trending</li>
         <li>Shopping</li>
         <li>Music</li>

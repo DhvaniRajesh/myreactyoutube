@@ -13,7 +13,7 @@ const Head = () => {
   const [showSuggestions, setShowSuggestions] = useState(false);
 
   const searchCache = useSelector(store=>store.search);
-  console.log("dispatch"+searchCache)
+  // console.log("dispatch"+searchCache)
   
   const dispatch = useDispatch();
 
@@ -37,7 +37,7 @@ const Head = () => {
     // console.log("Making API Call "+searchQuery);
     const data = await fetch(SEARCH_API+searchQuery);
     const json= await data.json();
-    // console.log(json);
+    console.log(json);
     setSuggestions(json[1]);
     dispatch(cacheResults({ [searchQuery]: json[1] }));
    
