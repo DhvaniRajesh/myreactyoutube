@@ -30,9 +30,10 @@ const Head = () => {
       clearTimeout(timer);
     }
     //make an api call after every key press but if difference b/w 2 key press is less than 200ms then decline the api call
-
+    // eslint-disable-next-line
   },[searchQuery]);
 
+  
   const getSearchSuggestions = async () => {
     // console.log("Making API Call "+searchQuery);
     const data = await fetch(SEARCH_API+searchQuery);
@@ -40,10 +41,7 @@ const Head = () => {
     console.log(json);
     setSuggestions(json[1]);
     dispatch(cacheResults({ [searchQuery]: json[1] })); // computed property name
-   
   }
-
-
 
   const toggleMenuHandler = () => {
     dispatch(toggleMenu());

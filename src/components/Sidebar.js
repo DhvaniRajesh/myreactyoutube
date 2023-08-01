@@ -21,11 +21,11 @@ const Sidebar = () => {
           </li>
         </Link>
         <li className="flex">
-          <span class="material-symbols-outlined">slideshow</span>
+          <span className="material-symbols-outlined">slideshow</span>
           <span >Shorts</span>
         </li>
         <li className="flex">
-          <span class="material-symbols-outlined">subscriptions</span>
+          <span className="material-symbols-outlined">subscriptions</span>
           <span >Subscriptions</span>
         </li>
       </ul>

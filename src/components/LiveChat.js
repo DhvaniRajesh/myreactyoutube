@@ -11,6 +11,7 @@ const LiveChat = () => {
   const dispatch = useDispatch();
 
   const chatMessages = useSelector((store) => store.chat.messages);
+
   useEffect(() => {
     const i = setInterval(() => {
       dispatch(
@@ -22,6 +23,7 @@ const LiveChat = () => {
     }, 1500);
 
     return () => clearInterval(i);
+    // eslint-disable-next-line
   }, []);
   return (
     <>

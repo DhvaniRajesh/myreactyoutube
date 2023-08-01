@@ -7,7 +7,7 @@ const Button = (props) => {
 
     return(
         <button className="px-5 py-1 m-1 bg-gray-200 rounded-lg"
-        onClick={()=>{alertPlay("hellotherealeter")}}> {name}</button>
+        onClick={()=>{alertPlay("You clicked on "+name)}}> {name}</button>
     )
 }
 

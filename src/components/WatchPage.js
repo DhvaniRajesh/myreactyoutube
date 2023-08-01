@@ -14,7 +14,12 @@ const WatchPage = () => {
   useEffect(() => {
     //    <em> const dispatch = useDispatch();</em>
     dispatch(closeMenu());
+    // eslint-disable-next-line
   }, []);
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   // console.log("Video info"+info);
   // const {snippet, statistics} = info;
