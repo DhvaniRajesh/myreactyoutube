@@ -15,17 +15,18 @@ const Sidebar = () => {
 
       <ul className="flex flex-col">
         <Link to="/">
-          <li className="">
+          <li className="flex">
             <span className="material-symbols-outlined">Home</span>
-            <span>Home</span>
+            <span >Home</span>
           </li>
         </Link>
-        <li>
-          <span class="material-symbols-outlined">slideshow</span>Shorts
+        <li className="flex">
+          <span class="material-symbols-outlined">slideshow</span>
+          <span >Shorts</span>
         </li>
-        <li>
+        <li className="flex">
           <span class="material-symbols-outlined">subscriptions</span>
-          Subscriptions
+          <span >Subscriptions</span>
         </li>
       </ul>
       <h1 className="font-bold py-2"> Library</h1>

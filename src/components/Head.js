@@ -39,7 +39,7 @@ const Head = () => {
     const json= await data.json();
     console.log(json);
     setSuggestions(json[1]);
-    dispatch(cacheResults({ [searchQuery]: json[1] }));
+    dispatch(cacheResults({ [searchQuery]: json[1] })); // computed property name
    
   }
 
@@ -55,7 +55,8 @@ const Head = () => {
       <div className="flex col-span-2">
         <img
           className="w-8 h-8 cursor-pointer"
-          onClick={()=>toggleMenuHandler()}
+          // onClick={()=>toggleMenuHandler()}
+          onClick={toggleMenuHandler}
           alt="nav-icon"
           src="https://icons.veryicon.com/png/o/miscellaneous/linear-icon-45/hamburger-menu-4.png"
         ></img>
