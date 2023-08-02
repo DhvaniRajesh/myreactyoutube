@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.9c30479e.css",
-    "main.js": "/react-gh-pages/static/js/main.d31f9c42.js",
-    "static/js/787.51baa2fd.chunk.js": "/react-gh-pages/static/js/787.51baa2fd.chunk.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.9c30479e.css.map": "/react-gh-pages/static/css/main.9c30479e.css.map",
-    "main.d31f9c42.js.map": "/react-gh-pages/static/js/main.d31f9c42.js.map",
-    "787.51baa2fd.chunk.js.map": "/react-gh-pages/static/js/787.51baa2fd.chunk.js.map"
+    "main.css": "/myreactyoutube/static/css/main.9c30479e.css",
+    "main.js": "/myreactyoutube/static/js/main.c4a6527e.js",
+    "static/js/787.51baa2fd.chunk.js": "/myreactyoutube/static/js/787.51baa2fd.chunk.js",
+    "index.html": "/myreactyoutube/index.html",
+    "main.9c30479e.css.map": "/myreactyoutube/static/css/main.9c30479e.css.map",
+    "main.c4a6527e.js.map": "/myreactyoutube/static/js/main.c4a6527e.js.map",
+    "787.51baa2fd.chunk.js.map": "/myreactyoutube/static/js/787.51baa2fd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9c30479e.css",
-    "static/js/main.d31f9c42.js"
+    "static/js/main.c4a6527e.js"
   ]
 }
