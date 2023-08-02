@@ -38,7 +38,7 @@ const Head = () => {
     // console.log("Making API Call "+searchQuery);
     const data = await fetch(SEARCH_API+searchQuery);
     const json= await data.json();
-    console.log(json);
+    // console.log(json);
     setSuggestions(json[1]);
     dispatch(cacheResults({ [searchQuery]: json[1] })); // computed property name
   }

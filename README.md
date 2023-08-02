@@ -1,3 +1,12 @@
+# Created React App for streaming youtube videos
+This project uses React Js, Tailwind CSS, Router, Redux Toolkit.
+
+Features of this project:
+1. Display the video cards on the home page of the app.
+2. Navigation bar with nav icon to hide and show the nav menu on click.
+3. Stream the video by clicking on any of the video card and chat option provided.
+4. Provide search suggestions on the search bar.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
