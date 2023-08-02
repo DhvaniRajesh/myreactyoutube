@@ -32,14 +32,16 @@ const appRouter = createBrowserRouter([
       },
     ]
   },
-]);
+],{
+  basename: process.env.PUBLIC_URL,
+});
 
 function App() {
   return (
     <Provider store={store}>
       <div className="App">
         <Head></Head>
-       <RouterProvider router={appRouter}></RouterProvider>
+       <RouterProvider router={appRouter} ></RouterProvider>
       </div>
     </Provider>
   );
